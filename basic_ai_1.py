@@ -25,7 +25,7 @@ def run_chain(question):
     st.session_state.chat_history.add_ai_message(response)
     return response
 # Streamlit app for AI chat with history
-st.title("🤖AI Chat with Memory")
+st.title("🤖AI ChatBOT with Memory")
 st.write("Ask me anything!")
 user = st.text_input("💬Your question:")
 if user:
